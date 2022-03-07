@@ -1,4 +1,4 @@
-package com.company.poly;
+package com.company.encapsule;
 
 public class Title {
     public static void main (String [] args){

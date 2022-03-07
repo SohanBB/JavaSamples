@@ -1,4 +1,4 @@
-package com.company.poly;
+package com.company.encapsule;
 
 public class Info {
     String bookName;
@@ -8,7 +8,7 @@ public class Info {
         this.author= author;
     }
     public void getInfo (){
-        System.out.println("Book Name "+ bookName + " Author " + author );
+        System.out.println("Book Name: "+ bookName + " Author: " + author );
       }
 
 }
