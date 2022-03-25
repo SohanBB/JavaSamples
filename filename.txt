@@ -1,0 +1,2 @@
+"Hello World" from 'filename.txt'
+This is next line in filename.txt
