@@ -29,5 +29,14 @@ public class PalindromCh {
         }
         else
             System.out.println("Not palindrome ");
+
+        String reverse = "reverse";
+        String temp = "";
+        System.out.println(reverse);
+        for(int i =reverse.length()-1;i>=0;i--){
+            temp = temp+reverse.charAt(i);
+        }
+        System.out.println(temp);
     }
+
 }
