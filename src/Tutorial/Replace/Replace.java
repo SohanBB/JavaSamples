@@ -9,7 +9,5 @@ public class Replace {
                 result = result + str.charAt(i);
             }
         }
-        System.out.println(result);
-
-    }
+        System.out.println(result);}
 }
