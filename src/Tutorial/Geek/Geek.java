@@ -9,6 +9,7 @@ public class Geek {
         E.show();
         Employee.ClassMethod();
 
+
     }
 }
 class Employee {
@@ -19,6 +20,8 @@ class Employee {
         System.out.println(name + " "+age  );
     }
     public static void ClassMethod(){
+        System.out.print("Phone no: "+ phone);
+        //Static method access static variable.
         System.out.println("This method access by without creating object");
     }
 }
