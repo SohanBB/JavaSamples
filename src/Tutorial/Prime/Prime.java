@@ -8,7 +8,7 @@ public class Prime {
             if(n%i == 0){
                 flag = true;
                 break;
-            }
+            } 
         }
         if(!flag)
             System.out.println("Prime number");
