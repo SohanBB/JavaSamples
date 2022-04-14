@@ -9,6 +9,6 @@ public class Cat extends Animal  implements AnimalStuff{
 
     @Override
     public void hair() {
-        System.out.println("Cat Hairs");
+        System.out.println("Cat Hairs"+ " "+AnimalStuff.name);
     }
 }

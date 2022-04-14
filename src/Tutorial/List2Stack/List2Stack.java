@@ -6,6 +6,7 @@ import java.util.List;
 public class List2Stack {
     List<String>People;
     public List2Stack(){
+
         this.People= new ArrayList<>();
     }
     public void push (String person){

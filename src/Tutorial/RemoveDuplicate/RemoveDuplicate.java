@@ -23,7 +23,7 @@ public class RemoveDuplicate {
         System.out.print("Duplicate characters in above string: ");
         for (int i=0;i<str.length();i++){
             for(int j=i+1;j<str.length();j++){
-                if(cArray[i]==cArray[j]){
+                if(cArray[i]==cArray[j] ){
                     System.out.print(cArray[j]+", ");
                     break;
                 }

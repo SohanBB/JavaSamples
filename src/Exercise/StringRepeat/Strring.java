@@ -1,6 +1,6 @@
-package Exercise.String;
+package Exercise.StringRepeat;
 
-public class Strring {
+class StringRepeat {
     public static void main(String[] args) {
         String str = "hello";
         int count;
@@ -15,7 +15,9 @@ public class Strring {
                 }
 
             }
-            
+            if(count > 1)
+
+                System.out.println(string[i]);
         }
     }
         }
