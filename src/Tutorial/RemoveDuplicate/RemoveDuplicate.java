@@ -34,6 +34,8 @@ public class RemoveDuplicate {
 
 
 
+
+
       /*  ArrayList<Integer> num = new ArrayList<>(Arrays.asList(1, 2, 2, 3, 4, 4));
         System.out.println("Array list with duplicates: "+num);
         Set<Integer> numDuplicate = new HashSet<>(num);
