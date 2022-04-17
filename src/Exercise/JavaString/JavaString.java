@@ -35,9 +35,12 @@ public class JavaString {
         for (int i = 0; i < n/2; i++) {
             if(palindromeString.charAt(i)==palindromeString.charAt(n-i-1))
                 count++;
-            System.out.println((count==n/2)?" is Palindrome":"Not a Palindrome ");
-
         }
+        System.out.println((count==n/2)?" is Palindrome":"Not a Palindrome ");
+
+
+
+
       /*   String str1 = "Java and Python are language ";
         String str2 = "Python";
 
