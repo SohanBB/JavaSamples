@@ -26,6 +26,9 @@ public class QuickPal {
     if(rnum==onum)
         System.out.println("Number is Palindrome: ");
     else System.out.println("Number is not palindrome:");
+
+
+
     }
 
 }
