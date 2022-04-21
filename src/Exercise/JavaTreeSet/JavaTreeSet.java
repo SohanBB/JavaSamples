@@ -1,6 +1,7 @@
 package Exercise.JavaTreeSet;
 
 import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.TreeSet;
 
@@ -17,6 +18,7 @@ public class JavaTreeSet {
         treeSet3.addAll(treeSet1);
         treeSet3.addAll(treeSet2);
         System.out.println(treeSet3);
+        Comparator<? super String> cmp = treeSet3.comparator();
 
     }
 }
