@@ -1,7 +1,7 @@
 package DSA.BinarySearch;
 
 public class BinarySearch {
-    int search(int data[],int x,int left,int right){
+    int search(int [] data,int x,int left,int right){
         while(left<=right){
             int mid= left+(right-left)/2;
             if(data[mid]==x)
@@ -16,7 +16,7 @@ public class BinarySearch {
     }
     public static void main(String[] args) {
         int[] data = {2, 4, 6, 8, 10, 12, 14};
-        int x = 4;
+        int x = 12;
         int size = data.length;
         BinarySearch obj = new BinarySearch();
         int result = obj.search(data,x,0,size-1);
@@ -27,4 +27,20 @@ public class BinarySearch {
 
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

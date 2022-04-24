@@ -2,26 +2,27 @@ package DSA.Sort;
 
 import java.util.Arrays;
 
-public class Sort {
-        static void sorting (int array[]){
-            int size =array.length;
-            for (int i = 0; i <size ; i++) {
-                for(int j=0;j<size-i-1;j++){
-                    if (array[j] > array[j+1]) {
-                        int temp=array[j];
-                        array[j]=array[j+1];
-                        array[j+1]=temp;
-                    }
-                }
-            }
-        }
-
+class Sort {
     public static void main(String[] args) {
-        int[]array={3,1,4,5,2};
-        System.out.println("Unsorted array: "+ Arrays.toString(array));
-        Sort.sorting(array);
-        System.out.println("Sorted array: "+Arrays.toString(array));
-    }
-    }
+        int []data = {3,1,5,2,4};
+        Sort.sorting(data);
+        System.out.println(Arrays.toString(data));
 
 
+    }
+    static void sorting(int []data){
+        int n = data.length;
+        for (int i = 0; i < n-1; i++) {
+            for (int j = 0; j <n-1-i ; j++) {
+                if(data[j]>data[j+1]){
+                    int temp = data[j];
+                    data[j]=data[j+1];
+                    data[j+1]= temp;
+                }
+
+            }
+
+        }
+    }
+
+}
