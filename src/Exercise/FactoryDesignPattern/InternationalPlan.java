@@ -1,6 +1,6 @@
 package Exercise.FactoryDesignPattern;
 
-class InternationalPlan  extends Plan {
+class CommercialPlan  extends Plan {
 
     @Override
     void getRate() {

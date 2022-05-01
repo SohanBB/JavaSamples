@@ -1,6 +1,6 @@
 package Exercise.FactoryDesignPattern;
 
- class HomePlan extends Plan {
+ class DomesticPlan extends Plan {
      @Override
      void getRate() {
          rate = 10;
