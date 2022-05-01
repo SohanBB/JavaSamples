@@ -1,5 +1,5 @@
 package Exercise.FunInterface;
-
+@FunctionalInterface
 public interface PrintInterface {
-    public void print();
+    void print() ;
 }

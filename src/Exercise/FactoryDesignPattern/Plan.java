@@ -3,7 +3,8 @@ package Exercise.FactoryDesignPattern;
      protected double rate;
      abstract void getRate();
 
-     public void calculateBill(int units){
+     public void calculateBill(double units){
          System.out.println("Billing amount in INR ->"+units*rate);
+
      }
 }
