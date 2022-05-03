@@ -4,22 +4,22 @@ import java.util.Scanner;
 
 public class StringOp {
     public static void removeDuplicate(String str){
-        int n = str.length();
         int count;
-        char []strA= str.toCharArray();
-        for (int i = 0; i <n-1 ; i++) {
-            count =1;
-            for (int j = i+1; j <n ; j++) {
-                if(strA[i]==strA[j] ){
+        char []strA = str.toCharArray();
+        for (int i = 0; i <= strA.length-1 ; i++) {
+            count=1;
+            for (int j = i+1; j <= strA.length-1 ; j++) {
+                if(strA[i]==strA[j]){
                     count++;
                     strA[j]=0;
                 }
             }
-            if(count>1 ){
-                System.out.println(strA[i]);
+            if(count>1){
+                System.out.print(strA[i]);
             }
         }
-    }
+
+        }
 
 
 

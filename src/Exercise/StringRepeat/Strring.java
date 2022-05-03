@@ -11,15 +11,12 @@ class StringRepeat {
                 if(string[i] == string[j]){
                     count++;
                     string[j]=0;
-
                 }
-
             }
             if(count > 1)
-
                 System.out.println(string[i]);
         }
     }
-        }
+}
 
 
