@@ -4,10 +4,9 @@ import java.util.Scanner;
 
 public class RemoveSpChar {
     public static void remover(String str) {
-        char[] strA = str.toCharArray();
-        for (int i = 0; i <= strA.length-1 ; i++) {
-            if(strA[i]>64 && strA[i]<123 ){
-                System.out.print(strA[i]);
+        for (int i = 0; i <= str.length()-1 ; i++) {
+            if(str.charAt(i)>64 && str.charAt(i)<123 ){
+                System.out.print(str.charAt(i));
             }
         }
     }
