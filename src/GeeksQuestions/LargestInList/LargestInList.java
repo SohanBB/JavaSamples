@@ -8,9 +8,9 @@ public class LargestInList {
         list = Arrays.asList(3,1,8,2,7,5,9);
         System.out.println(list);
         int max= 0;
-       for(Integer integer:list){
-           if(integer>max){
-               max = integer;
+       for(Integer element:list){
+           if(element>max){
+               max = element;
            }
         }
         System.out.println("Max Value in List is: "+max);
