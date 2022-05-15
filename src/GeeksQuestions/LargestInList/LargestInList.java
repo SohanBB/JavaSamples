@@ -1,0 +1,18 @@
+package GeeksQuestions.LargestInList;
+
+import java.util.*;
+
+public class LargestInList {
+    public static void main(String[] args) {
+        List<Integer> list = new ArrayList<>();
+        list = Arrays.asList(3,1,8,2,7,5,9);
+        System.out.println(list);
+        int max= 0;
+       for(Integer integer:list){
+           if(integer>max){
+               max = integer;
+           }
+        }
+        System.out.println("Max Value in List is: "+max);
+    }
+}

@@ -1,4 +1,4 @@
-package Exercise.ZeroSum;
+package GeeksQuestions.ZeroSum;
 
 public class ZeroSum {
     static void findZeroSum(int[] data) {
