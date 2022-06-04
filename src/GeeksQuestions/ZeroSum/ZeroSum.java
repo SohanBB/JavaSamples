@@ -8,11 +8,7 @@ public class ZeroSum {
                     if (data[i] + data[j] + data[k] == 0) {
                         System.out.println("Index : " + "{" + i + "," + j + "," + k + "}");
                         System.out.println("{" + data[i] + "," + data[j] + "," + data[k] + "}");
-                    }
-                }
-            }
-        }
-    }
+                    }}}}}
 
     public static void main(String[] args) {
         int[] data = {1, 2, 1, -2, -4, -2, 2};
